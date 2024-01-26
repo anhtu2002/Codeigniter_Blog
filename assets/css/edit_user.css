@@ -1,0 +1,91 @@
+.contentt {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentt .wrap h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contentt .wrap .my-info {
+  width: 900px;
+  height: 400px;
+  background-color: white;
+  border: 1px solid rgb(105, 104, 104);
+  border-radius: 2px;
+  padding: 10px;
+  background-color: rgb(248, 245, 245);
+}
+.contentt .wrap .my-info .form_infor {
+  display: flex;
+}
+.contentt .wrap .my-info .form_infor .avata {
+  margin: 60px;
+}
+.contentt .wrap .my-info .form_infor .avata input {
+  width: 190px;
+}
+.contentt .wrap .my-info .form_infor .avata #label-file {
+  position: absolute;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid rgb(197, 197, 197);
+  background-color: aqua;
+}
+.contentt .wrap .my-info .form_infor .avata #upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.contentt .wrap .my-info .form_infor .avata .img {
+  background-color: white;
+  width: 150px;
+  height: 200px;
+  border: 1px solid rgb(105, 104, 104);
+  overflow: hidden;
+}
+.contentt .wrap .my-info .form_infor .avata .img img {
+  object-fit: cover;
+  width: 100%;
+}
+.contentt .wrap .my-info .form_infor .info {
+  margin: 60px;
+  position: relative;
+  width: 400px;
+}
+.contentt .wrap .my-info .form_infor .info .wrap-content {
+  display: flex;
+}
+.contentt .wrap .my-info .form_infor .info label, .contentt .wrap .my-info .form_infor .info input, .contentt .wrap .my-info .form_infor .info select {
+  margin: 10px 0;
+  font-size: 20px;
+  padding: 7px;
+}
+.contentt .wrap .my-info .form_infor .info select {
+  color: rgb(77, 77, 77);
+  width: 250px;
+  border: 0.5px solid rgb(228, 228, 228);
+}
+.contentt .wrap .my-info .form_infor .info label {
+  width: 150px;
+}
+.contentt .wrap .my-info .form_infor .info input {
+  color: rgb(77, 77, 77);
+  width: 250px;
+  border: 0.5px solid rgb(228, 228, 228);
+}
+.contentt .wrap .my-info .form_infor .info button {
+  padding: 5px;
+  width: 100px;
+}
+.contentt .wrap .my-info .form_infor .info #btn_update {
+  position: absolute;
+  right: 150px;
+  top: 250px;
+}
+.contentt .wrap .my-info .form_infor .info #btn_change {
+  position: absolute;
+  right: 0px;
+  top: 250px;
+}

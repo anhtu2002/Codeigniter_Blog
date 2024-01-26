@@ -1,0 +1,12 @@
+.tbl_infor {
+  border-collapse: collapse;
+}
+.tbl_infor tr th, .tbl_infor tr td {
+  border: 1px solid black;
+  padding: 7px 15px;
+}
+.tbl_infor tr .edit_del {
+  width: 100px;
+  display: flex;
+  height: 33.2px;
+}

@@ -1,0 +1,98 @@
+.content {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .wrap {
+  width: 70%;
+  border: 3px solid rgb(155, 155, 155);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.content .wrap h1 {
+  padding: 20px;
+  border-bottom: 1px solid rgb(162, 162, 162);
+  text-align: center;
+}
+.content .wrap .new_blog_form {
+  margin: 25px 20px;
+}
+.content .wrap .new_blog_form .form_infor .img_blog {
+  position: absolute;
+  padding: 4px 15px;
+  border: 1px solid rgb(131, 131, 131);
+  background-color: rgb(97, 236, 152);
+  cursor: pointer;
+}
+.content .wrap .new_blog_form .form_infor #img_blog {
+  opacity: 0;
+}
+.content .wrap .new_blog_form .form_infor .inp-head {
+  display: flex;
+}
+.content .wrap .new_blog_form .form_infor .inp-head .img {
+  width: 600px;
+  height: 300px;
+  border: 1px solid rgb(162, 162, 162);
+  overflow: hidden;
+}
+.content .wrap .new_blog_form .form_infor .inp-head .img #inp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content .wrap .new_blog_form .form_infor .inp-head .inp-left {
+  width: 100%;
+  margin-left: 30px;
+}
+.content .wrap .new_blog_form .form_infor .inp-head .inp-left input {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  margin: 7px 0;
+}
+.content .wrap .new_blog_form .form_infor .inp-head .inp-left textarea {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  margin: 7px 0;
+}
+.content .wrap .new_blog_form .form_infor .inp-head .inp-left select {
+  padding: 10px;
+  width: 200px;
+  margin: 7px 0;
+}
+.content .wrap .new_blog_form .form_infor .content_area {
+  margin-top: 30px;
+}
+.content .wrap .new_blog_form .form_infor .sub_btn {
+  margin: 15px 0;
+  background-color: #28b485;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+
+label {
+  font-size: 20px;
+}
+
+.noidung {
+  width: 100%;
+  text-align: center;
+}
+
+#ccccc {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 700px;
+}
+
+.ck-content {
+  min-height: 400px;
+  padding: 0 30px !important;
+}
+.ck-content li {
+  list-style-type: disc !important;
+  margin-left: 15px;
+}

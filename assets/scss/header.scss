@@ -1,0 +1,113 @@
+.right-left {
+  margin: 0 70px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+  font-family: "Sen";
+}
+
+.navbar {
+  background-color: #232536;
+  height: 80px;
+  color: white; 
+  z-index: 100;
+}
+  
+.navbar .navbar-container {
+    position: relative;
+    display: flex; }
+.navbar .navbar-container h2 {
+      line-height: 80px; }
+.navbar .navbar-container .navbar-right {
+      position: absolute;
+      right: 0;
+      display: flex;
+      top: 50%;
+      transform: translateY(-50%); }
+.navbar .navbar-container .navbar-right .menu {
+        line-height: 50px;
+        display: flex; }
+.navbar .navbar-container .navbar-right .menu li {
+          list-style: none;
+          margin: 0 30px; }
+.navbar .navbar-container .navbar-right .button_navbar {
+        height: 50px;
+        padding: 0 30px;
+        font-size: 18px;
+       }
+
+#logoutForm{
+  display: none;
+}
+   
+.menu{
+  li{
+    list-style: none;
+    a{
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+#menu-m{
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.navbar-right{
+  position: relative;
+}
+#hidden_menu{
+  width: 165px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(239, 247, 189);
+  position: absolute;
+  right: -20px;
+  top: 64px;
+  z-index: 100;
+  
+  a{
+    text-decoration: none;
+    color: black;
+    
+    .menu-list{
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    background-color: azure;
+    border: 1px solid rgb(145, 145, 145);
+    &:hover{
+      background-color: aquamarine;
+    }
+    }
+    }
+
+}
+.login-header{
+  margin-left: 14px;
+  padding: 15px;
+  background-color: rgb(232, 230, 230);
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  &:hover{
+    background-color: rgb(250, 196, 96);
+  }
+}
+.menu-list-btn{
+  cursor: pointer;
+  list-style: none;
+  color: black;
+    padding: 15px;
+    width: 100%;
+    background-color: azure;
+    border: 1px solid rgb(145, 145, 145);
+    &:hover{
+      background-color: aquamarine;
+    }
+}

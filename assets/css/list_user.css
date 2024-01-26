@@ -1,0 +1,44 @@
+.infor-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infor-wrap .list {
+  margin-top: 100px;
+}
+.infor-wrap .list h1 {
+  text-align: center;
+}
+
+.new_user {
+  background-color: rgb(83, 242, 83);
+  border: none;
+  margin-left: 450px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.tbl_infor {
+  border-collapse: collapse;
+}
+.tbl_infor tr {
+  height: 40px;
+}
+.tbl_infor tr th, .tbl_infor tr td {
+  border: 1px solid black;
+  padding: 7px 15px;
+}
+.tbl_infor tr .edit_del {
+  width: 150px;
+  display: flex;
+}
+.tbl_infor tr .edit_del .wrap-btn {
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: rgb(245, 208, 139);
+}
+.tbl_infor tr .edit_del .wrap-btn:hover {
+  background-color: orange;
+}

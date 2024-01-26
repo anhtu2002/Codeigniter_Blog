@@ -1,0 +1,45 @@
+.infor-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .list{
+        margin-top: 100px;
+        h1{
+            text-align: center;
+        }
+    }
+}
+
+.new_user{
+    background-color: rgb(83, 242, 83);
+    border: none;
+    margin-left: 450px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.tbl_infor{
+    border-collapse: collapse;
+    tr{
+        height: 40px;
+        th,td{
+            border: 1px solid black;
+            padding:7px 15px;
+        }
+       .edit_del{
+        width: 150px;
+        display: flex;
+        .wrap-btn{
+            font-size: 12px;
+            padding: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+            background-color: rgb(245, 208, 139);
+            &:hover{
+                background-color: orange;
+            }
+            
+        }
+       }
+    }
+}

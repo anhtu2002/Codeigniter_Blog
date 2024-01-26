@@ -1,0 +1,40 @@
+@charset "UTF-8";
+.body-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-content .list h1 {
+  text-align: center;
+}
+.body-content .list .tbl_infor {
+  border-collapse: collapse;
+}
+.body-content .list .tbl_infor tr {
+  height: 40px;
+}
+.body-content .list .tbl_infor tr th, .body-content .list .tbl_infor tr td {
+  border: 1px solid black;
+  padding: 7px 15px;
+}
+.body-content .list .tbl_infor tr .wrap-btn {
+  font-size: 12px;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: rgb(245, 208, 139);
+}
+.body-content .list .tbl_infor tr .wrap-btn:hover {
+  background-color: orange;
+}
+
+.td-mess {
+  max-width: 400px;
+  height: 70px; /* Đặt giá trị max-height tùy thuộc vào yêu cầu của bạn */
+  overflow-y: auto; /* Cho phép cuộn dọc khi nội dung vượt quá max-height */
+  word-wrap: break-word;
+}
+
+.accept {
+  border: none !important;
+}

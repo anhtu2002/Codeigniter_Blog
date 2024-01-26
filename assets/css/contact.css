@@ -1,0 +1,66 @@
+.contact-wrap {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-wrap .wrap {
+  width: 45%;
+}
+.contact-wrap .wrap .contact-heading {
+  margin: 70px 0;
+  text-align: center;
+}
+.contact-wrap .wrap .contact-heading h5 {
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+.contact-wrap .wrap .contact-heading h1 {
+  margin: 20px 0;
+}
+.contact-wrap .wrap .contact-heading p {
+  color: rgb(175, 175, 175);
+}
+.contact-wrap .wrap .contact-us {
+  padding: 50px;
+  display: flex;
+  background-color: #592ea9;
+}
+.contact-wrap .wrap .contact-us .working {
+  margin-right: 40px;
+}
+.contact-wrap .wrap .contact-us .working p {
+  color: rgb(217, 216, 215);
+  padding: 15px 0;
+}
+.contact-wrap .wrap .contact-us .working .head-con {
+  border-bottom: 1px solid #6134b4;
+}
+.contact-wrap .wrap .contact-us .working h6 {
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 7px;
+}
+.contact-wrap .wrap .contact-form {
+  margin-top: 40px;
+}
+.contact-wrap .wrap .contact-form input {
+  padding: 20px 20px;
+  width: 100%;
+  margin: 5px 0;
+}
+.contact-wrap .wrap .contact-form button {
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px 0;
+  background-color: #ffd050;
+  border: none;
+  font-weight: 600;
+}
+.contact-wrap .wrap .contact-form button:hover {
+  background-color: #fdbb05;
+  cursor: pointer;
+}
